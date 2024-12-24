@@ -15,13 +15,27 @@ const Navbar = () =>{
                     {open ? "X":"≡"}
                 </div>
                 {/* MOBILE MENU CONTENT */}
-                <div className={`w-full h-screen flex flex-col items-center absolute top-16  transition-all ease-in-out ${
+                <div className={`w-full h-screen flex flex-col items-center justify-center gap-8 font-medium text-lg absolute top-16  transition-all ease-in-out ${
                     open ? "-right-0":"-right-[100%]"}`}>
-                    menu
+                    <a href="">主页</a>
+                    <a href="">博客</a>
+                    <a href="">最受欢迎</a>
+                    <a href="">关于</a>
+                    <a href="">
+                        <button className='py-2 px-4 rounded-3xl bg-blue-800 text-white'>登录</button>
+                    </a>
                 </div>
             </div>
             {/* DESKTOP MENU */} 
-            <div className="hidden md:flex">D</div>
+            <div className="hidden md:flex items-center gap-8 xl:gap-12 font-medium">
+                <a href="">主页</a>
+                <a href="">博客</a>
+                <a href="">最受欢迎</a>
+                <a href="">关于</a>
+                <a href="">
+                    <button className='py-2 px-4 rounded-3xl bg-blue-800 text-white'>登录</button>
+                </a>
+            </div>
         </div>
     )
 }
