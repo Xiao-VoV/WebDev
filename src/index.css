@@ -2,8 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-body{
-    background-color: #e6e6ff;
-    width:100vw;
-    overflow-x: hidden;
+body {
+  background-color: #e6e6ff;
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+.animateButton {
+  animation-duration: 10000ms;
 }
