@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import MainCategories from "../components/MainCategories";
 
 const Homepage = () => {
   return (
@@ -56,6 +57,9 @@ const Homepage = () => {
 
         </Link>
       </div>
+      {/* 博客分类列表 */}
+      <MainCategories/>
+
     </div>
   );
 };
