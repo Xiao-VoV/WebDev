@@ -2,9 +2,9 @@ import { Link } from "react-router-dom";
 import Search from "./Search";
 const MainCategories = () => {
   return (
-    <div className="hidden md:flex bg-white  rounded-3xl xl:rounded-full p-4 shadow-lg items-center justify-center gap-8">
+    <div className="hidden  md:flex bg-white  rounded-3xl xl:rounded-full p-4 shadow-lg items-center justify-between gap-8">
       {/* 分类链接 */}
-      <div className="flex-1 flex items-center justify-between flex-wrap">
+      <div className=" flex items-center justify-between flex-wrap">
         <Link
           to="/post"
           className="bg-blue-800 text-white rounded-full px-4 py-2"
@@ -30,9 +30,11 @@ const MainCategories = () => {
           杂项
         </Link>
       </div>
-      <span className="text-xl font-medium">丨</span>
-      {/* 搜索框 */}
-      <Search />
+      <div className="flex flex-row items-center">
+        <span className="text-xl font-medium">丨</span>
+        {/* 搜索框 */}
+        <Search />
+      </div>
       {/* <div className="bg-gray-100 p-2 rounded-full flex items-center gap-2">
                 <svg
                 xmlns="http://www.w3.org/2000/svg"
