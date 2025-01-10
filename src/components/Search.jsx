@@ -12,7 +12,11 @@ const Search = () => {
         <circle cx="10.5" cy="10.5" r="7.5" />
         <line x1="16.5" y1="16.5" x2="20.5" y2="20.5" />
       </svg>
-      <input type="text" placeholder="搜索文章" className="bg-white " />
+      <input
+        type="text"
+        placeholder="搜索文章"
+        className="bg-white rounded-xl pd-1"
+      />
     </div>
   );
 };

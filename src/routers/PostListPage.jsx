@@ -15,10 +15,14 @@ const PostListPage = () => {
         {open ? "Close" : "查找"}
       </button>
       <div className="flex flex-col-reverse md:flex-row gap-8">
-        <div className="">
+        <div className="gap-2">
+          <PostListItem />
+          <PostListItem />
+          <PostListItem />
+          <PostListItem />
           <PostListItem />
         </div>
-        <div className={`${open ? "block" : "hidden"}`}>
+        <div className={`${open ? "block" : "hidden"} md:block`}>
           <SideMenu />
         </div>
       </div>
