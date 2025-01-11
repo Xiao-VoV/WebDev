@@ -15,7 +15,7 @@ const PostListPage = () => {
         {open ? "Close" : "查找"}
       </button>
       <div className="flex flex-col-reverse md:flex-row gap-8">
-        <div className="gap-2">
+        <div className="flex flex-col gap-4">
           <PostListItem />
           <PostListItem />
           <PostListItem />
