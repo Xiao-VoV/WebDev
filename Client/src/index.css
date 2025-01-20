@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #e6e6ff;
+  width: 100vw;
+  margin: 0 auto;
+  overflow-x: hidden;
+}
+
+html {
+  font-size: 14px; /* 设置根元素字体大小为14px */
+}
+.animateButton {
+  animation-duration: 10000ms;
+}
+
+.ql-container {
+  border: none !important;
+}
+.ql-toolbar {
+  border: none !important;
+}
+.ql-editor {
+  border: none !important;
+}
