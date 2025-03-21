@@ -32,3 +32,9 @@ a {
   flex-direction: column;
   justify-content: space-between;
 }
+
+@media (max-width: 1536px) {
+  .container {
+    width: 100%;
+  }
+}
